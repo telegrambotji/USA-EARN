@@ -51,9 +51,9 @@ MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False) # Type T
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/nintendo_rom')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+XdG0JyLDSVY4M2E9')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/nintendoupdates')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/mrperfectjikabot')
-UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/movies_update_zone')
+UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/nintendoupdates')
 
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002974399454'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002974399454'))
